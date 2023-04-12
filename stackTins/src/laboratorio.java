@@ -1,58 +1,58 @@
 import java.util.Arrays;
 
 public class laboratorio {
-    public static void mergeSort(String[] array, int left, int right) {
-		if (left < right) {
-			int middle = (left + right) / 2;
-			mergeSort(array, left, middle);
-			mergeSort(array, middle + 1, right);
-			merge(array, left, middle, right);
+    public static void mergeSort(String[] brazil, int lula, int bozo) {
+		if (lula < bozo) {
+			int centrao = (lula + bozo) / 2;
+			mergeSort(brazil, lula, centrao);
+			mergeSort(brazil, centrao + 1, bozo);
+			merge(brazil, lula, centrao, bozo);
 		}
 	}
 
-	public static void merge(String[] array, int left, int middle, int right) {
-        int n1 = middle - left + 1;
-        int n2 = right - middle;
+	public static void merge(String[] brazil, int lula, int centrao, int bozo) {
+        int esquerda = centrao - lula + 1;
+        int direita = bozo - centrao;
         
-        String[] L = new String[n1];
-        String[] R = new String[n2];
+        String[] brazilLula = new String[esquerda];
+        String[] brazilBozo = new String[direita];
         
-        for (int i = 0; i < n1; ++i) {
-            L[i] = array[left + i];
+        for (int i = 0; i < esquerda; ++i) {
+            brazilLula[i] = brazil[lula + i];
         }
-        for (int j = 0; j < n2; ++j) {
-            R[j] = array[middle + 1 + j];
+        for (int j = 0; j < direita; ++j) {
+            brazilBozo[j] = brazil[centrao + 1 + j];
         }
         
-        int i = 0, j = 0;
-        int k = left;
+        int indexP = 0, j = 0;
+        int indexB = lula;
         
-        while (i < n1 && j < n2) {
-            if (L[i].compareTo(R[j]) <= 0) {
-                array[k] = L[i];
-                i++;
+        while (indexP < esquerda && j < direita) {
+            if (brazilLula[indexP].compareTo(brazilBozo[j]) <= 0) {
+                brazil[indexB] = brazilLula[indexP];
+                indexP++;
             } else {
-                array[k] = R[j];
+                brazil[indexB] = brazilBozo[j];
                 j++;
             }
-            k++;
+            indexB++;
         }
         
-        while (i < n1) {
-            array[k] = L[i];
-            i++;
-            k++;
+        while (indexP < esquerda) {
+            brazil[indexB] = brazilLula[indexP];
+            indexP++;
+            indexB++;
         }
         
-        while (j < n2) {
-            array[k] = R[j];
+        while (j < direita) {
+            brazil[indexB] = brazilBozo[j];
             j++;
-            k++;
+            indexB++;
         }
     }
 
     public static void main(String[] args) {
-        String[] ay = {"banana", "apple", "chocolate", "danone", "estetoscopio", "fibraOptica"};
+        String[] ay = {"Pt", "PSDB", "ACC", "ZDB", "EDC", "UZC", "ACZ"};
         System.out.println("Antes do sorting: " + Arrays.toString(ay));
         mergeSort(ay, 0, ay.length - 1);
         System.out.println("Depois sorting: " + Arrays.toString(ay));
