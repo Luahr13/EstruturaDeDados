@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="laboratorioDeEstudo.PlantaPredio"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+    <fullyQualifiedTypeName name="unitins.LinkedTins"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="unitins.ArrayTins"/>
+    <fullyQualifiedTypeName name="unitins.StackTins"/>
+    <fullyQualifiedTypeName name="unitins.QueueTins"/>
+</qualifiedTypeNameHistroy>

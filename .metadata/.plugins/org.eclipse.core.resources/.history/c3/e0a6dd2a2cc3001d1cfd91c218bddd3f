@@ -1,0 +1,9 @@
+package unitins;
+
+public class QueueTins<T> {
+	
+	public void enqueue(T newElement) {
+		
+	}
+	
+}

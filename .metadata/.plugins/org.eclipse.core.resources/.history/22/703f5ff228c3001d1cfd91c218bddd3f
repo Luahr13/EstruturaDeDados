@@ -1,0 +1,27 @@
+package laboratorioDeEstudo;
+
+import unitins.StackTins;
+
+class PlantaPredio {
+
+	String endereco;
+	String cor;
+
+}
+
+public class LaboratorioDeEstudo {
+
+	public static void main(String[] args) {
+
+		StackTins<String> pilha = new StackTins<String>();
+
+		pilha.push("Fusca");
+		pilha.push("Corolla");
+		pilha.push("Hilux");
+		pilha.push("Ferrari");
+		pilha.push("Lamborgh");
+
+
+	}
+
+}

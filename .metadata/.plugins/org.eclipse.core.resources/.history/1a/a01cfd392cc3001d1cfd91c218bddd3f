@@ -1,0 +1,15 @@
+package unitins;
+
+public class QueueTins<T> {
+	
+	public void enqueue(T newElement) {
+		
+	}
+	
+	public T dequeue() {
+		
+		
+		return 
+	}
+	
+}

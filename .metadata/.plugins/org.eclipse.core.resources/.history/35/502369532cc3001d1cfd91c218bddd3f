@@ -1,0 +1,19 @@
+package unitins;
+
+public class QueueTins<T> {
+	
+	private ArrayTins<T> array = new ArrayTins<T>();
+	
+	public void enqueue(T newElement) {
+		
+		
+		
+	}
+	
+	public T dequeue() {
+		
+		
+		return 
+	}
+	
+}

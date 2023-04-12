@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;unitins.LinkedTins.getElement(...)&apos; to &apos;get&apos;&#x0D;&#x0A;- Original project: &apos;linkedTins&apos;&#x0D;&#x0A;- Original element: &apos;unitins.LinkedTins.getElement(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;unitins.LinkedTins.get(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;getElement&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;unitins{LinkedTins.java[LinkedTins~getElement~I" name="get" references="true" stamp="1678276986521" version="1.0"/>
+</session>

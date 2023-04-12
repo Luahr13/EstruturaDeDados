@@ -1,0 +1,23 @@
+package unitins;
+
+public class QueueTins<T> {
+
+	private ArrayTins<T> array = new ArrayTins<T>();
+
+	public void enqueue(T newElement) {
+		array.add(0, newElement);
+	}
+
+	public T dequeue() {
+		return array.remove(0);
+	}
+
+	public int size() {
+		return array.size();
+	}
+
+	public boolean isEmpty() {
+		return array.isEmpty();
+	}
+
+}

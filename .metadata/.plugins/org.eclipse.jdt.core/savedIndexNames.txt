@@ -1,0 +1,7 @@
+INDEX VERSION 1.132+C:\Users\emann\Documents\Eclipse\estruturasDeDados\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3721272518.index
+2707574570.index
+1803077129.index
+3413725848.index
+2554960908.index

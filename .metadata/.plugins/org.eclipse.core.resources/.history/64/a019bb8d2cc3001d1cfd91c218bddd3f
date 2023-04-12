@@ -1,0 +1,18 @@
+package laboratorioDeEstudo;
+
+class PlantaPredio {
+
+	String endereco;
+	String cor;
+
+}
+
+public class LaboratorioDeEstudo {
+
+	public static void main(String[] args) {
+
+		
+
+	}
+
+}

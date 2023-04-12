@@ -1,0 +1,7 @@
+package unitins;
+
+public class StackTins<T> extends ArrayTins<T> {
+
+	
+	
+}

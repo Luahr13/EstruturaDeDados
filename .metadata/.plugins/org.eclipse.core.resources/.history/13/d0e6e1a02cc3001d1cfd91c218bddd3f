@@ -1,0 +1,27 @@
+package laboratorioDeEstudo;
+
+import unitins.QueueTins;
+
+class PlantaPredio {
+
+	String endereco;
+	String cor;
+
+}
+
+public class LaboratorioDeEstudo {
+
+	public static void main(String[] args) {
+
+		QueueTins<String> fila = new QueueTins<String>();
+
+		pilha.push("Fusca");
+		pilha.push("New Fiesta");
+		pilha.push("Corolla");
+		pilha.push("Hilux");
+		pilha.push("Ferrari");
+		pilha.push("Lamborghini");
+
+	}
+
+}

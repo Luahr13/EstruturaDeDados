@@ -1,0 +1,22 @@
+package laboratorioDeEstudo;
+
+import unitins.StackTins;
+
+class PlantaPredio {
+
+	String endereco;
+	String cor;
+
+}
+
+public class LaboratorioDeEstudo {
+
+	public static void main(String[] args) {
+		
+		StackTins<String> pilha = new StackTins<String>();
+		
+		
+		
+	}
+
+}
