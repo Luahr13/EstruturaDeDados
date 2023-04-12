@@ -224,8 +224,8 @@ public class LabDeEstudo {
 
 	public static void main(String[] args) {
 
-		String[] ay = {"banana", "apple", "cherry", "date", "elderberry", "fig"};
-        System.out.println("ANtes do sorting: " + Arrays.toString(ay));
+		String[] ay = {"banana", "apple", "chocolate", "danone", "estetoscopio", "fibraOptica"};
+        System.out.println("Antes do sorting: " + Arrays.toString(ay));
         mergeSort(ay, 0, ay.length - 1);
         System.out.println("Depois sorting: " + Arrays.toString(ay));
 		
