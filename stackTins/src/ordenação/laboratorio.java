@@ -1,3 +1,4 @@
+package ordenação;
 import java.util.Arrays;
 
 public class laboratorio {
