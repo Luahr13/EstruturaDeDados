@@ -172,16 +172,16 @@ public class LabDeEstudo {
 		return parts[parts.length - 1];
 	}
 
-	public static void mergeSort(String[] arr, int left, int right) {
+	public static void mergeSort(String[] array, int left, int right) {
 		if (left < right) {
 			int middle = (left + right) / 2;
-			mergeSort(arr, left, middle);
-			mergeSort(arr, middle + 1, right);
-			merge(arr, left, middle, right);
+			mergeSort(array, left, middle);
+			mergeSort(array, middle + 1, right);
+			merge(array, left, middle, right);
 		}
 	}
 
-	public static void merge(String[] arr, int left, int middle, int right) {
+	public static void merge(String[] array, int left, int middle, int right) {
         int n1 = middle - left + 1;
         int n2 = right - middle;
         
@@ -189,10 +189,10 @@ public class LabDeEstudo {
         String[] R = new String[n2];
         
         for (int i = 0; i < n1; ++i) {
-            L[i] = arr[left + i];
+            L[i] = array[left + i];
         }
         for (int j = 0; j < n2; ++j) {
-            R[j] = arr[middle + 1 + j];
+            R[j] = array[middle + 1 + j];
         }
         
         int i = 0, j = 0;
@@ -200,23 +200,23 @@ public class LabDeEstudo {
         
         while (i < n1 && j < n2) {
             if (L[i].compareTo(R[j]) <= 0) {
-                arr[k] = L[i];
+                array[k] = L[i];
                 i++;
             } else {
-                arr[k] = R[j];
+                array[k] = R[j];
                 j++;
             }
             k++;
         }
         
         while (i < n1) {
-            arr[k] = L[i];
+            array[k] = L[i];
             i++;
             k++;
         }
         
         while (j < n2) {
-            arr[k] = R[j];
+            array[k] = R[j];
             j++;
             k++;
         }
