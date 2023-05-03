@@ -1,5 +1,4 @@
 package ordenação;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class laboratorio {
@@ -54,9 +53,10 @@ public class laboratorio {
     }
 
     public static void main(String[] args) {
-        String[] ay = {"Pt", "PCC", "ACC", "ZDB", "EDC", "UZC", "ACZ"};
-        System.out.println("Antes do sorting: " + Arrays.toString(ay));
-        mergeSort(ay, 0, ay.length - 1);
-        System.out.println("Depois sorting: " + Arrays.toString(ay));
+        String[] grupoCriminoso = {"Pt", "PCC", "ACC", "ZDB", "EDC", "UZC", "ACZ"};
+        
+        System.out.println("Antes do sorting: " + Arrays.toString(grupoCriminoso));
+        mergeSort(grupoCriminoso, 0, grupoCriminoso.length - 1);
+        System.out.println("Depois sorting: " + Arrays.toString(grupoCriminoso));
     }
 }
