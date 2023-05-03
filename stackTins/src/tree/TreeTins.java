@@ -7,7 +7,7 @@ public class TreeTins {
         return rootNode == null;
     }
 
-    private void addNode(String inf){
+    public void addNode(String inf){
         rootNode = addP(rootNode, inf);
     }
 
@@ -31,9 +31,5 @@ public class TreeTins {
             }
         }
         return rootNode;
-    }
-
-    public void add(String info){
-        rootNode = addP(rootNode, info);
     }
 }
